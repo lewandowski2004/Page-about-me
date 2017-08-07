@@ -1,0 +1,335 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Radosław, Lewandowski, front end, html, css, java script,portfolio, projkety, wizytówka, moja strona">
+       
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        
+        
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/stickyNav.js"></script>
+        <script src="js/slider-div.js"></script>
+        <script src="js/scrollup.js"></script>
+        <script src="js/animation.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/animation.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="dependencies/parallax.js-1.4.2/parallax.min.js"></script>
+       
+		<title>Moja Strona</title>
+   
+	</head>
+	<body>
+<!--======================= Ekran Startowy ===========================-->
+        <div id="bg-img" style="background-image: url('img/tapeta.jpg')">
+            
+<!--======================= Portale spolecznosciowe ===========================-->
+            <div id="portale">
+				<div class="container-auto float-right">
+				    <a href="https://www.facebook.com/radek.lewandowski.7"  target="_blank">
+				    <i class="icon-facebook"></i></a>
+                
+					<a href="https://www.youtube.com" class="titlelink" target="_blank">
+				    <i class="icon-youtube"></i></a>
+					
+					<a href="https://twitter.com" class="titlelink" target="_blank">
+				    <i class="icon-twitter"></i></a>
+				</div>
+            </div>
+<!--======================= Portale spolecznosciowe KONIEC ===========================-->
+            
+<!--======================= Ikona Scrollup  ===========================-->
+            <a href="#"  class="scrollup icon-up-circle" title="Przewiń na początek strony"></a>
+<!--=======================  Ikona KONIEC  ===========================-->
+    
+<!--=======================  MENU głowne  ===========================-->
+            <header>
+                <div class="content-nav">
+                    <div id="top-header">
+                        <h1><span>Żyj Pasją</span></h1>
+                        <div class="handler icon-menu-1"></div> 
+                        
+                        <nav class="nav">
+                            <ul>
+                                <li><a href="strona-glowna">START</a></li>
+                                <li><a href="portfolio">PORTFOLIO</a></li>
+                                <li><a id="link-cv" href="#">CV</a></li>
+                                <li><a href="#" target="_blank">BLOG</a></li>
+				                <li><a id="link-kontakt" href="#portale-contact">KONTAKT</a></li>
+				            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>   
+                <script type="text/javascript">
+				    $('.handler').click(function() {
+					   $('nav').toggleClass('showing');
+				    });
+                </script>
+<!--======================= MENU głowne KONIEC ===========================-->
+            
+            <div id="glowny-h1" class="bounceIn animated"><h1>Radosław<br>Lewandowski<br></h1></div>
+        </div>
+<!--======================= Koniec ekranu startowego ===========================-->
+ 
+<!--======================= Div o mnie ===========================-->
+        <div class="container-full-width bg-color-f5" id="O-mnie">
+            <header class="header-tytul">
+                <h1 class="header-h1">O Mnie</h1>
+            </header>
+            
+            <div class="container-1200px">
+                <p class="text-center padding-15px">Jestem studentem kierunku Informatycznego o specjalizacji programowanie. Z dnia na dzień poszeżam swoją wiedzę z obszaru Front-endu i przede wszystkim języka Javy , z którą chce wiązać swoją przyszłość. Staram się dążyć do postawionych przed sobą celów. Mogę powiedzieć o sobie, że jestem osobą wytrwałą i ambitną w tym co robię i chcę robić by realizować swoją pasję. Zapraszam do obejrzenia mojej strony, gdzie przedstawię informację na temat moich umiejętności i wiedzy.<br>
+                </p><br><br><br>
+            
+                <img src="img/java.png" class="img-50"/>
+            </div>
+        </div>
+<!--======================= Div o mnie KONIEC ===========================-->
+        
+<!--======================= JAVA ===========================-->
+        <div class="container-full-width" id="java">
+            <header>
+                <h1 class="header-h1" style="border-bottom: 2px solid #f55555; margin-bottom: 50px">Wszystko na czym sie skupiłem w Javie Enterprise Edition </h1>
+            </header>   
+            <div class="container-1200px">
+                <div class="java-img" style="padding-top: 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/hibernate.png"/>
+                    </div>
+                </div>
+                
+                
+                <div class="java-img" style="padding: 20px 0px 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/jpa.jpg"/>
+                    </div>
+                </div>
+                
+                <div class="java-img" style="padding: 20px 0px 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/maven.png"/>
+                    </div>
+                </div>
+                
+                <div style="clear:both;"></div>
+                <div style="border-bottom: 1px solid #c5c5c5"></div>
+                
+                <div class="java-img" style="padding: 20px 0px 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/glassfish.jpg"/>
+                    </div>
+                </div>
+                
+                
+                <div class="java-img" style="padding: 20px 0px 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/apache-tomcat.png"/>
+                    </div>
+                </div>
+                
+                <div class="java-img" style="padding: 20px 0px 20px">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/jsp.jpg"/>
+                    </div>
+                </div>
+                
+                <div style="clear:both;"></div>
+                <div style="border-bottom: 1px solid #c5c5c5"></div>
+                
+                <div class="java-img" style="padding: 20px 0px 20px; margin-left: auto; float: none">
+                    <div style="width: 160px; height: 160px; margin: auto;">
+                        <img style="width:100%" src="img/junit.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--======================= JAVA koniec ===========================-->
+        
+    <div class="parallax-target-2 section-1" data-parallax="scroll" data-image-src="img/klawiatura.jpg"></div>
+        
+<!--======================= GIT ===========================-->
+        <div class="container-full-width bg-color-f5" id="git">
+            <div style="margin: 0 auto; max-width: 350px; height: 70 px; padding: 20px;">
+                <img class="img-100" src="img/git.png"/>
+            </div>  
+            <div class="container-1200px">
+                <p class="text-center padding-15px">W mojej histrii programowania kontrola wersji nastąpiła dopiero gdy straciłem cały tworzony przez siebie projekt. Od tego czasu każdy dłuższy kod rozpoczynam od tworzenia repozytorium. Do tych celów używam kontroli wersji Git oraz graficzny program GitHub Desktop. Na samym początku wszystkie czynności odbywały się wierszu poleceń lecz po jakimś czasie postanowiłem użyć graficznej wersji i w moim przypadku tak zostało. Większość firm stawia na prace w zespole i uważam, że przyswojenie wiedzy z tego zakresu jest bardzo dobrym pomysłem i dodatkowym atutem. <br>
+                </p><br><br>
+                
+                <div class="button-git">
+                    <a href="https://github.com"  target="_blank">
+				        <input name="submit" type="submit" value="Repozytorium">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--======================= GIT koniec ===========================-->
+        
+        
+<!--======================= Parallaxa ===========================-->
+
+<!-- section 1 starts-->
+        <div class="parallax-target section-1" data-parallax="scroll" data-image-src="img/laptop.jpg"></div>
+<!-- section 2 starts-->
+        <div class="container-full-width section-2" id="projekty">
+            <header class="header-tytul">
+                <h1 class="header-h1">Moje Projekty ( Front-end )</h1>
+            </header>
+            <div class="container-full-width bg-color-f5" style="margin-bottom: 10px">
+                    <div class="content-img">
+                        <img src="img/tryby.png" class="img-100"/>
+                        <div style="clear:both;"></div>
+                    </div>
+                </div>
+            <div class="container-1200px" id="projekty-cechy">
+                <div class="projekty">
+                    <div class="projekty-icon"><i class="icon-code"></i></div>
+                    <p>Dbam o porządek w kodzie</p>
+                </div>
+                <div class="projekty">
+                    <div class="projekty-icon"><i class="icon-resize-small-alt"></i></div>
+                    <p>Są w 100 % responsywne</p>
+                </div>
+                <div class="projekty">
+                    <div class="projekty-icon"><i class="icon-eye"></i></div>
+                    <p>Nowoczesny i funkcjonalny Layout</p>
+                </div>
+                <div class="projekty-2">
+                    <div class="projekty-icon"><i class="icon-cogs"></i></div>
+                    <p>Działają na każdym urządzeniu</p>
+                </div>
+                <div class="projekty-2">
+                    <div class="projekty-icon"><i class="icon-chart-line"></i></div>
+                    <p>Szybkość działania</p>
+                </div>
+            </div>
+        </div>
+        <div class="parallax-target section-3" data-parallax="scroll" data-image-src="img/kawa.jpg"></div>
+<!-- section 4 starts-->
+<!--======================= Parallaxa KONIEC ===========================-->
+        
+        
+<!--======================= SLIDER ===========================-->
+        <div  class="container-full-width">
+            <header class="header-tytul">
+                <h1 class="header-h1">Narzędzia w których pracowałem</h1>
+            </header>
+       		
+            <div id="slider">
+            </div>
+        </div>
+<!--======================= SLIDER KONIEC ===========================-->
+        
+        
+<!--======================= DIC CV ===========================-->
+        <div  class="container-full-width" id="cv">
+            <header class="header-tytul">
+                <h1 class="header-h1">CV</h1>
+            </header>
+            <div class="container-1200px">
+                <div class="cv-wyksztalcenie">
+                    <h2>Wykształcenie</h2>
+                    <p>09/2015-obecnie<br>	Szkoła Wyższa im. Pawła Włodkowica w Płocku
+                        Kierunek: Informatyka (studia niestacjonarne), Specjalizacja: programowanie, semestr IV.
+                    </p>
+                </div>
+                <div class="cv-umiejetnosci">
+                    <h2>Umiejętności</h2>
+                    <p>•	Technologie:<br><br>
+                                - HTML 5,<br>
+                                - CSS 3,<br>
+                                - Java Script, JQuery (podstawy- w trakcie nauki),<br>
+                                - Java (podstawy).<br><br>
+                        •	CMS:<br>
+                                - WordPress.<br><br>
+                        •	Bazy danych:<br>
+                                - MySQL, Oracle (podstawowe komendy wyszukiwania informacji, tworzenia tabel).<br><br>
+                        •	Narzędzia:<br>
+                                - NetBeans, Eclipse, Notepad++, Visual Studio, FileZilla.<br><br>
+                        •	Inne:<br>
+                                - Prawo jazdy kat.B i C.<br>
+                    </p>
+                </div>
+                <div class="cv-jezyk">
+                    <h2>Język</h2>
+                    <p>Angielski -  Poziom podstawowy (pozwalający na tworzenie i odczytywanie dokumentacji).</p>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+<!--======================= DIV CV KONIEC ===========================-->
+        
+        
+<!--======================= DIV KONTAKTOWY ===========================-->
+        <div id="formularz-content">
+            <header class="header-tytul">
+                <h1 class="header-h1">Napisz do mnie wiadomość<br></h1>
+            </header>
+<!--============ FORMULARZ ============-->			
+            <div id="formularz">
+                <form id="form" method="post" action="mail.php">
+                    <label>Imie i nazwisko</label>
+                    <input name="name" >
+                    <div id="iname" class="error"></div>
+                    <label>Email</label>
+                    <input name="email" type="email">
+                    <div id="iemail" class="error"></div>
+                    <label>Wiadomość</label>
+                    <textarea name="message" rows="8"></textarea>
+                    <div id="imessage" class="error"></div>
+                    <input id="submit" name="submit" type="submit" value="Wyślij">
+                </form>
+            </div>
+<!--============ FORMULARZ KONIEC ============-->
+        
+<!--============ Portale Społecznościowe ============-->
+            <div class="container-full-width" id="portale-contact">
+                <div id="portale-contact-conteiner">
+				    <div class="circle-portale">
+                        <a href="https://www.facebook.com/radek.lewandowski.7"  target="_blank">
+				        <i class="icon-facebook-2"></i></a>
+                    </div>
+				    <div class="circle-portale">
+				        <a href="https://www.youtube.com" class="titlelink" target="_blank">
+				        <i class="icon-youtube-1"></i></a>
+				    </div>
+				    <div class="circle-portale">
+				        <a href="https://twitter.com" class="titlelink" target="_blank">
+				        <i class="icon-twitter-1"></i></a>
+                    </div>
+                </div>
+            </div>
+<!--============ Portale Społecznościowe KONIEC ============-->
+        </div>
+<!--======================= DIV FORMULARZ KONIEC ===========================-->
+        
+        <footer>
+            <nav class="nav-footer">
+                <ul>
+				    <li><a href="strona-glowna">START</a></li>
+                    <li><a href="portfolio">PORTFOLIO</a></li>
+				    <li><a id="link-cv" href="#cv">CV</a></li>
+                    <li><a href="http://lewandowski.000webhostapp.com/" target="_blank">BLOG</a></li>
+				    <li><a id="link-kontakt" href="#portale-contact">KONTAKT</a></li>
+				</ul>
+            </nav>
+            
+            <p>© 2017 Lewandowski Radosław.</p>
+            
+        </footer>
+ <!--======================= Zalinkowane SCRIPTY ===========================-->     
+        <script src="js/jquery-2.2.1.min.js"></script>
+        <script src="dependencies/parallax.js-1.4.2/parallax.min.js"></script>
+        <script src ="js/jquery-3.2.0.min.js"></script>
+        <script src="js/scrollup.js"></script>
+    
+        
+        
+	</body>
+</html>
