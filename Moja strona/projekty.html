@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="Radosław, Lewandowski, front end, html, css, java script,portfolio, projkety, wizytówka, moja strona">
+       
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        
+        
+        <script src="js/jquery-3.2.0.min.js"></script>
+        <script src="js/stickyNav.js"></script>
+        <script src="js/slider-div.js"></script>
+        <script src="js/scrollup.js"></script>
+        <script src="js/jquery.scrollTo.min.js"></script>
+        <script type="text/javascript" src="js/animation.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/jquery.scrollTo.min.js"></script>
+        <script src="dependencies/parallax.js-1.4.2/parallax.min.js"></script>
+       
+		<title>Moja Strona</title>
+   
+	</head>
+	<body>
+<!--======================= Ekran Startowy ===========================-->
+        <div id="bg-img-p" style="background-image: url('img/img-projekty.jpg')">
+            
+            
+<!--======================= Ikona Scrollup  ===========================-->
+            <a href="#"  class="scrollup icon-up-circle" title="Przewiń na początek strony"></a>
+<!--=======================  Ikona KONIEC  ===========================-->
+    
+<!--=======================  MENU głowne  ===========================-->
+            <header>
+                <div class="content-nav">
+                    <div id="top-header">
+                        <h1><span>Żyj Pasją</span></h1>
+                        <div class="handler icon-menu-1"></div> 
+                        
+                        <nav class="nav">
+                            <ul>
+                                <li><a href="strona-glowna">START</a></li>
+                                <li><a href="portfolio">PORTFOLIO</a></li>
+                                <li><a id="link-kontakt" href="#portale-contact">KONTAKT</a></li>
+				            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>   
+                <script type="text/javascript">
+				    $('.handler').click(function() {
+					   $('nav').toggleClass('showing');
+				    });
+                </script>
+<!--======================= MENU głowne KONIEC ===========================-->
+            
+            <div id="glowny-h1-portfolio" class="bounceIn animated"><h1>Projekty<br></h1></div>
+        </div>
+<!--======================= Koniec ekranu startowego ===========================-->
+ 
+<!--======================= Div o mnie ===========================-->
+        <div class="container-full-width bg-color-f5" id="O-projektach">
+            <header class="header-tytul">
+                <h1 class="header-h1">Moje Projekty</h1>
+            </header>
+            
+            <div class="container-1200px">
+                <p class="text-center" style="padding: 15px 15px">Znajdziesz tutaj moje projekty z różnych języków programowania, jak i inżynieri oprogramowania. Do każdego projektu przygotowałem krótki opis oraz możliwość pobrania paczki ZIP z plikami i kodem danego projektu.<br>
+                </p><br><br><br>
+            </div>
+        </div>
+<!--======================= Div o mnie KONIEC ===========================-->
+
+<!--======================= Div Projekty ===========================-->
+        <div class="container-full-width" id="projekty">
+            
+             <div class="container-1200px" style="border-bottom: 2px solid #ccbcbc">
+                <header class="header-tytul-2" style="padding-bottom: 20px">
+                    <h1 class="header-h1">Forum (Aplikacja Webowa)</h1>
+                </header>
+
+                    <img src="img/webApp.png" style="width: 100%"/>
+                        <br /><br />
+                <div class="button-gitHube">
+                    <a href="https://github.com/lewandowski2004/Forum/tree/0.1/forum.forum" target="_blank">
+                        <input name="submit" type="submit" value="GitHube">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="container-1200px" style="border-bottom: 2px solid #ccbcbc">
+                <header class="header-tytul-2" style="padding-bottom: 20px">
+                    <h1 class="header-h1">Magazyn ( JAVA )</h1>
+                </header>
+                <div class="container-half-width float-left">
+                    <p style="padding: 20px">Jest to projekt systemu obsługujący magazyn na lokalnym komputerze. Charakterystyczne funkcje to:<br><br>
+                        - lista produktów z ich nazwą, ilością i ceną<br>
+                        - Możliwość dodawania, usuwania i aktualizacji produktów<br>
+                        - Tworzenie faktury z szybkim dodawaniem produktów z bazy magazynu<br>
+                        - bezpośrednie drukowanie faktury dla klienta<br><br> Wszystkie dane zostają zapisane w plikach tekstowych na dysku gdzie znajduję się program. </p>
+                </div>
+                <div class="container-half-width float-left" >
+                    <img src="img/magazyn.jpg" style="width: 100%"/>
+                </div>
+                <div class="button-download">
+                    <a href="paczki/magazyn.zip">
+                        <input name="submit" type="submit" value="Pobierz Projekt">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="container-1200px">
+                <header class="header-tytul-2" style="padding-bottom: 20px">
+                    <h1 class="header-h1">System "Szkoła tańca"<br>( Inżynieria Oprogramowania )</h1>
+                </header>
+                <div class="container-half-width float-left">
+                    <p style="padding: 20px">Jest to Oprogramowanie stworzone na potrzeby Szkoły tańca. System ten pozwala na zarejestrowanie się Klienta po czym uzyskuje dostęp do własnego konta osobistego.Przez przeglądarkę internetową Klient ma dostęp do takich informacji jak:<br><br>
+                        - Oferta<br>
+                        - terminy kursów tańca oraz  nauczycieli prowadzących<br>
+                        - szczegółów wcześniej zarezerwowanej Lekcji<br><br>
+                    Może dokonać takich czynności jak:<br><br>
+                        - Zmiany zarezerwowanej lekcji<br>
+                        - Rezygnacji z Lekcji<br><br> 
+                    Właściciel natomiast wprowadza wszelkie informacje do systemu :<br><br>
+                        - dodawanie nowych zajęć<br>
+                        - zmiana zajęć<br>
+                        - przyporządkowuje nauczycieli do zajęć
+                    </p>
+                </div>
+                <div class="container-half-width float-left" >
+                    <img src="img/szkola-tanca.jpg" style="width: 100%"/>
+                </div>
+                <div class="button-download" style="padding: 20px">
+                    <a href="paczki/szkola-tanca.docx">
+                        <input name="submit" type="submit" value="Pobierz Projekt">
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--======================= Div Projekty KONIEC ===========================-->       
+				
+<!--======================= DIV KONTAKTOWY ===========================-->
+        <div id="formularz-content">
+            <header class="header-tytul">
+                <h1 class="header-h1">Napisz do mnie wiadomość<br></h1>
+            </header>       
+<!--============ FORMULARZ ============-->			
+            <div id="formularz">
+                <form id="form" method="post" action="mail.php">
+                    <label>Imie i nazwisko</label>
+                    <input name="name" >
+                    <div id="iname" class="error"></div>
+                    <label>Email</label>
+                    <input name="email" type="email">
+                    <div id="iemail" class="error"></div>
+                    <label>Wiadomość</label>
+                    <textarea name="message" rows="8"></textarea>
+                    <div id="imessage" class="error"></div>
+                    <input id="submit" name="submit" type="submit" value="Wyślij">
+                </form>
+            </div>
+<!--============ FORMULARZ KONIEC ============-->
+        
+<!--============ Portale Społecznościowe ============-->
+            <div class="container-full-width" id="portale-contact">
+                <div id="portale-contact-conteiner">
+				    <div class="circle-portale">
+                        <a href="https://www.facebook.com/radek.lewandowski.7"  target="_blank">
+				        <i class="icon-facebook-2"></i></a>
+                    </div>
+				    <div class="circle-portale">
+				        <a href="https://www.youtube.com" class="titlelink" target="_blank">
+				        <i class="icon-youtube-1"></i></a>
+				    </div>
+				    <div class="circle-portale">
+				        <a href="https://twitter.com" class="titlelink" target="_blank">
+				        <i class="icon-twitter-1"></i></a>
+                    </div>
+                </div>
+            </div>
+<!--============ Portale Społecznościowe KONIEC ============-->
+        </div>
+<!--======================= DIV FORMULARZ KONIEC ===========================-->
+        
+        <footer>
+            <nav class="nav-footer">
+                <ul>
+				    <li><a href="strona-glowna">START</a></li>
+                    <li><a href="portfolio">PORTFOLIO</a></li>
+                    <li><a id="link-kontakt" href="#portale-contact">KONTAKT</a></li>
+				</ul>
+            </nav>
+            
+            <p>2017 © Radosław Lewandowski</p>
+            
+        </footer>
+ <!--======================= Zalinkowane SCRIPTY ===========================-->     
+        <script src="js/jquery-2.2.1.min.js"></script>
+        <script src="dependencies/parallax.js-1.4.2/parallax.min.js"></script>
+        <script src ="js/jquery-3.2.0.min.js"></script>
+        
+	</body>
+</html>
