@@ -1,0 +1,1094 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif; 
+}
+body h1,
+body p
+{
+    font-family: georgia;
+    font-size: 20px;
+}
+#bg-img
+{
+    height: 100vh;
+    background-position: 50% 0px;
+    width: 100%;
+    overflow: hidden;
+}
+#bg-img-p
+{
+    height: auto;
+    background-position: 50% 0px;
+    width: 100%;
+    overflow: hidden;
+}
+/*---------------- PORTALE Społecznościowe---------------------
+--------------------------------------------------------------*/
+#portale
+{
+    max-width:  1200px;
+    padding-top: 15px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+/*JAVA*/
+.java-img
+{
+    min-width: 33.3%;
+    float: left;
+}
+.java-tresc
+{
+    min-width: 70%;
+    float: left;
+}
+
+/*----------------Moje classy Bootstrap--------------------------
+---------------------------------------------------------------*/
+.container-auto
+{
+    width: auto;
+    overflow: hidden;
+}
+.container-full-width
+{
+    width: 100%;
+    overflow: hidden;
+}
+.container-1200px
+{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.container-half-width
+{
+    width: 50%;
+    overflow: hidden;
+}
+.bg-color-f5
+{
+    background-color: #f5f5f5;
+}
+.padding-15px
+{
+    padding: 15px 15px;
+}
+.img-100
+{
+    width: 100%;
+}
+.img-50
+{
+    width: 40%;
+    margin-left: 30%;
+}
+.float-right
+{
+    float: right;
+}
+.float-left
+{
+    float: left;
+}
+.text-center
+{
+    text-align: center;
+}
+.header-tytul
+{
+    width: 100%;
+    height: auto;
+    background-color: #f55555;
+    color: white;
+    margin: 0;
+    padding: 0;  
+}
+.header-tytul-2
+{
+    width: 100%;
+    height: auto;
+    color: black;
+    margin: 0;
+    padding: 0;  
+}
+.header-h1
+{
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+    line-height: 40px;
+    padding: 10px;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*---------------------NAWIGACJA (menu)--------------------------
+----------------------------------------------------------------*/
+#bg-img header,
+#bg-img-p header
+{
+    width: 100%;
+    margin-left: auto;
+    height: 70px;
+    border-top: 1px solid #757272;
+    background-color: rgba(0,0,0,0.7);
+}
+.content-nav
+{
+    width: 100%;
+    margin-left: auto;
+    height: 70px; 
+}
+#top-header
+{
+    max-width:  1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#top-header h1
+{
+    float: left;
+    font-style: italic;
+    font-family: georgia;
+    font-weight: 400;
+    font-size: 54px;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.sticky
+{
+	left: 0;
+	top: 0;
+	z-index: 9999;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+}
+.nav
+{
+	z-index: 9999;
+	margin-left: auto;
+    margin-right: auto;
+    float: right;
+    position: relative;
+}
+
+.nav ul li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav ul li a
+{
+    padding: 11px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.nav ul li a:hover
+{
+	font-weight: 900;
+	font-size: 14px;
+	border-bottom: 3px solid red;
+    transition: 200ms;
+}
+.icon-menu-1:hover     
+{
+	color: red;
+    opacity: 0.5;
+	cursor: pointer;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*-------------------Moje imie i nazwisko------------------------
+---------------------------------------------------------------*/
+#glowny-h1
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+
+}
+#glowny-h1 h1,
+#glowny-h1-portfolio h1
+{
+    font-size: 70px;
+}
+#glowny-h1-portfolio
+{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 50px;
+
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+
+/*----------------------FORMULARZ-------------------------------
+---------------------------------------------------------------*/
+#formularz {
+    width: 600px; 
+    margin:0 auto; 
+	padding:20px; 
+    margin-top:20px; 
+}
+
+#formularz label {
+    display: block;
+    margin-bottom:5px;
+    font-weight:bold; 
+    text-transform: uppercase; 
+    font-size:14px; 
+    color: #d35252; 
+	width: 100%;
+}
+
+#formularz textarea,
+#formularz input {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:3px;
+	border: 1px solid black; 
+	margin-bottom: 25px; 
+	width: 100%; 
+	color: black;
+}
+#formularz input#submit {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 100%; 
+	cursor: pointer; 
+	margin-bottom: 0px;
+    background-color: #d35252;
+    border: none;
+    color: white;
+    font-weight: 300;
+}
+#formularz input#submit:hover{
+	background-color: #e3b3b7;
+	color: white;transition: 300ms;
+}
+
+#formularz p.copy {
+	color: red;
+	margin-bottom: 0px; 
+	font-size: 12px; 
+	text-align: center; 
+}
+#przycisk
+{
+	padding-top: 20px;
+	width: 65px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*-----------------Portale div contact ---------------------------
+---------------------------------------------------------------*/
+.circle-portale
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: #e3b3b7;
+}
+.circle-portale:hover
+{
+    background-color: #d35252;
+    transition: 300ms;
+}
+
+#portale-contact-conteiner
+{
+    margin-top: 40px;
+    padding-bottom: 20px;
+    height: 60px;
+    width: 222px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*------------------------ PORTFOLIO ---------------------------
+---------------------------------------------------------------*/
+#portfolio img
+{
+    max-width: 100%;
+}
+#portfolio h1
+{
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    background-color: #f19f9f;
+}
+#portfolio p
+{
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #757575;
+    font-size: 16px;
+}
+#portfolio h3
+{
+   text-align: center;
+}
+.button-git
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    margin-bottom: 20px;
+   
+}
+.button-strona
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+    margin-bottom: 20px;
+   
+}
+.button-git input
+{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #49b349;
+    font-size: 20px;
+    font-weight: 600;   
+}
+.button-strona input
+{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #49b349;
+    font-size: 14px;
+    font-weight: 600;   
+}
+.button-git input:hover,
+.button-strona input:hover
+{
+	background-color: #94e094;
+    cursor: pointer;
+}
+.button-git input:focus,
+.button-strona input:focus
+{
+    outline: none;
+}
+.portfolio1,
+.portfolio3
+{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+    margin-bottom: -4.5px;
+    position: 50% 0px;
+}
+.portfolio2,
+.portfolio4
+{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    margin-bottom: -4.5px;
+    position: 50% 0px;
+}
+.portfolio-img
+{
+    position: 50% 0px;
+    width: 50%;
+    overflow: hidden;
+    margin-bottom: -5.5px;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*-------------------------SLIDER-------------------------------
+---------------------------------------------------------------*/
+#slider
+{
+	max-width: 500px;
+    min-height: 200px;
+    max-height: 350px;
+	position: relative;
+	margin: 40px auto;
+	overflow: hidden;
+}
+#slider img
+{
+    width: 100%;
+
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*---------------------------- CV -------------------------------
+---------------------------------------------------------------*/
+#cv h2
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #cccbcb;
+    color: red;
+}
+#cv p
+{
+    padding: 15px;
+}
+.cv-wyksztalcenie
+{
+    width: 33.333333%;
+    float: left;
+    min-height: 400px;
+    border-left: 1px solid #afa7a7;
+    border-bottom: 1px solid #afa7a7;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cv-umiejetnosci
+{
+    width: 33.333333%;
+    float: left;
+    min-height: 500px;
+    -webkit-box-shadow: 0px 0px 27px 2px rgba(41,41,41,1);
+    -moz-box-shadow: 0px 0px 27px 2px rgba(41,41,41,1);
+    box-shadow: 0px 0px 27px 2px rgba(41,41,41,1);
+    border-bottom: 1px solid #afa7a7;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cv-jezyk
+{
+    
+    width: 33.333333%;
+    float: left;
+    min-height: 400px;
+    border-right: 1px solid #afa7a7;
+    border-bottom: 1px solid #afa7a7;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*-------------------------Footer -------------------------------
+---------------------------------------------------------------*/
+footer
+{
+    font-size: 70px;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+footer p
+{
+    color: white;
+    font-size: 16px;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding: 15px;
+}
+.nav-footer
+{
+    max-width: 440px;
+	margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-bottom: 1px solid red;
+}
+.nav-footer ul
+{
+    padding-left: 0px;
+    padding-top: 15px;
+	padding-bottom: 15px;
+    margin: 0px;
+    position: relative;
+}
+.nav-footer ul li
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-footer ul li a
+{
+    padding: 11px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.nav-footer ul li a:hover
+{
+	font-size: 14px;
+    color: red;
+    transition: 200ms;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*-------------------------PARALLAX, PROJEKTY ------------------
+---------------------------------------------------------------*/
+.parallax-target{
+    min-height: 600px;
+    background: transparent;
+}
+.parallax-target-2{
+    min-height: 400px;
+    background: transparent;
+}
+.projekty
+{
+    width: 33.33%;
+    float: left;
+}
+.projekty p,
+.projekty-2 p
+{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 10px;
+}
+.projekty-2
+{
+    width: 50%;
+    float: left;
+}
+.projekty-icon
+{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 70px;
+    border: 3px solid #e2d9d9;
+    background-color: #f2f2f2;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content-img
+{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+
+/*----------------------------- IKONY ---------------------------
+---------------------------------------------------------------*/
+.icon-up-circle
+{
+	text-decoration: none;
+	position: fixed;
+	right: 50px;
+	bottom: 70px;
+	z-index: 4000;
+	color: #a3b1bf;
+
+}
+.icon-up-circle:hover
+{
+	color: red;
+    opacity: 0.5;
+    transition: 200ms;
+}
+.icon-facebook,
+.icon-youtube,
+.icon-twitter
+{
+    color: white;
+}
+.icon-facebook:hover,
+.icon-youtube:hover,
+.icon-twitter:hover
+{
+    color: red;
+    transition: 300ms;
+    opacity: 0.5;
+}
+.icon-facebook-2,
+.icon-youtube-1,
+.icon-twitter-1
+{
+    color: white;
+    border-radius: 3px;
+    font-size: 48px;
+}
+
+.handler {
+	width:35px;
+	text-align:left;
+	padding:15px 10px;
+	color:white;
+	display: none;
+    margin-top: 60px;
+}
+/*---------------------------------------------------------------
+---------------------------------------------------------------*/
+.button-download
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 221px;
+    margin-top: 400px;
+    margin-bottom: 40px;
+}
+.button-gitHube
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 221px;
+    margin-bottom: 40px;
+}
+.button-gitHube input,
+.button-download input
+{
+    padding: 15px 45px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    background-color: #ca760b;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-gitHube input:hover,
+.button-download input:hover
+{
+    background-color: #e09e4b;
+    cursor: pointer;
+}
+.button-gitHube input:focus,
+.button-download input:focus
+{
+
+    outline: none;
+}
+
+@media screen and (max-width: 360px) {
+#glowny-h1
+{
+    max-width: 350px;
+    margin-top: 100px;
+}
+#glowny-h1 h1,
+#glowny-h1-portfolio h1
+{
+    font-size: 40px;
+}
+.content-img
+{
+    max-width: 100%; 
+}
+#projekty .float-left
+{
+    float: none;
+}
+#projekty .container-half-width
+{
+    width: 100%;
+}
+.button-download
+{
+    margin-top: 40px;
+}
+footer
+{
+   font-size: 14px;    
+}
+.nav-footer ul
+{
+    margin: 0px;
+    position: relative;
+}
+.nav-footer ul li
+{
+
+    display: block;
+    text-align: center;
+}
+.nav-footer ul li a
+{
+    font-size: 11px;
+    line-height: 26px;
+}
+.nav-footer ul li a:hover
+{
+	font-size: 11px;
+    color: red;
+    transition: 200ms;
+}
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio-img
+{
+    width: 100%;
+
+}
+#formularz 
+{    
+    padding: 0px; 
+    margin-top:20px; 
+	width: 80%
+}
+.cv-wyksztalcenie,
+.cv-jezyk
+{
+    width: 100%;
+    min-height: auto;
+    float: none;
+    border-right: none;
+    border-left: none;
+}
+.cv-umiejetnosci
+{
+    width: 100%;
+    float: none;
+    min-height: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.projekty,
+.projekty-2
+{
+    float: none;
+    width: 100%;
+}
+.cv-wyksztalcenie,
+.cv-jezyk
+{
+    width: 100%;
+    min-height: auto;
+    float: none;
+}
+}
+@media screen and (min-width: 360px) and (max-width: 550px) {
+#glowny-h1
+{
+    max-width: 350px;
+    margin-top: 100px;
+}
+#glowny-h1 h1,
+#glowny-h1-portfolio h1
+{
+    font-size: 46px;
+}
+.content-img
+{
+    max-width: 100%; 
+}
+#projekty .float-left
+{
+    float: none;
+}
+#projekty .container-half-width
+{
+    width: 100%;
+}
+.button-download
+{
+    margin-top: 40px;
+}
+footer
+{
+   font-size: 14px;    
+}
+.nav-footer ul
+{
+    margin: 0px;
+    position: relative;
+}
+.nav-footer ul li
+{
+
+    display: block;
+    text-align: center;
+}
+.nav-footer ul li a
+{
+    font-size: 11px;
+    line-height: 26px;
+}
+.nav-footer ul li a:hover
+{
+	font-size: 11px;
+    color: red;
+    transition: 200ms;
+}
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio-img
+{
+    width: 100%;
+
+}
+#formularz 
+{
+    padding:10px; 
+    margin-top:20px; 
+	width: 80%
+}
+    
+.projekty,
+.projekty-2
+{
+        float: none;
+        width: 100%;
+}
+.cv-wyksztalcenie,
+.cv-jezyk
+{
+    width: 100%;
+    min-height: auto;
+    float: none;
+    border-right: none;
+    border-left: none;
+}
+.cv-umiejetnosci
+{
+    width: 100%;
+    float: none;
+    min-height: auto;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+}
+
+@media screen and (max-width: 768px){
+#projekty .float-left
+{
+    float: none;
+}
+#projekty .container-half-width
+{
+    width: 100%;
+}
+.button-download
+{
+    margin-top: 40px;
+}
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio-img
+{
+    width: 100%;
+
+}
+#portfolio p
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+head
+{
+    display: none;
+}
+.nav-footer
+{
+    max-width: 328px;
+
+}
+.nav-footer ul li a
+{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-footer ul li a:hover
+{
+	font-size: 11px;
+    color: red;
+    transition: 200ms;
+}
+#formularz 
+{
+    width: 80%
+}
+.handler
+{
+    margin-top: 5px;
+}
+#bg-img header h1
+#bg-img-p header h1
+{
+    display: none;    
+}
+#top-header h1
+{
+    display: none;
+}
+header.sticky
+{
+    opacity: 1;
+}
+.nav ul
+{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #070402;
+}
+.scrollup
+{
+	right: 10px;
+	bottom: 40px;
+}
+	
+.nav
+{
+	width: 100%;
+	height: auto;
+	display: none;
+	position: relative;
+}
+
+
+.nav ul li
+{
+	width: 766px;
+	width: 100%;
+	float: none;
+	box-shadow: none;
+	border-bottom: 1px solid white;
+}
+.nav ul li a
+{
+    padding-left: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+	width: 100%;
+	display: block;
+}
+.nav ul li a:hover
+{
+    border: none;
+    color: red;
+}
+
+.showing {
+	display: block;
+}
+
+.handler {
+	display:block;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1070px) {
+#projekty .float-left
+{
+    float: none;
+}
+#projekty .container-half-width
+{
+    width: 100%;
+}
+.button-download
+{
+    margin-top: 40px;
+}
+#formularz 
+{
+    width: 65%
+}
+.portfolio1,
+.portfolio2,
+.portfolio3,
+.portfolio4,
+.portfolio-img
+{
+    width: 100%;
+
+}
+#portfolio p
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media screen and (min-width: 1069px) and (max-width: 1279px) {
+#portfolio p
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1920px) {
+
+#portfolio p
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
